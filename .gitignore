@@ -1,3 +1,8 @@
+# нр╣дееЁЩ
+node_modules
+*.pyc
+.*
+
 # Logs
 logs
 *.log
