@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>文件系统</title>
+	<link rel="stylesheet" href="../public/layui/css/layui.css" media="all">
+	<style>
+		body {
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="layui-container">
+		<div class="layui-row">
+			<div class="layui-col-xs12 layui-col-sm12 layui-col-md12">
+				<h1 style="color: #FF5722;">文件系统</h1>
+
+				<hr class="layui-bg-blue" />
+
+				<div class="layui-btn-container">
+					<button id="btn_show_open" class="layui-btn layui-btn-normal layui-btn-lg" style="width: 200px; height: 100px;">
+						<i class="layui-icon layui-icon-face-smile" style="font-size: 32px; color: #d6ff1e;"></i><br />
+						打开文件
+					</button>
+					<button id="btn_show_message_box" class="layui-btn layui-btn-normal layui-btn-lg" style="width: 200px; height: 100px;">
+						<i class="layui-icon layui-icon-face-smile" style="font-size: 32px; color: #d6ff1e;"></i><br />
+						信息框
+					</button>
+					<button id="btn_show_error_box" class="layui-btn layui-btn-normal layui-btn-lg" style="width: 200px; height: 100px;">
+						<i class="layui-icon layui-icon-face-smile" style="font-size: 32px; color: #d6ff1e;"></i><br />
+						错误框
+					</button>
+					<button id="btn_filelist" class="layui-btn layui-btn-normal layui-btn-lg" style="width: 200px; height: 100px;">
+						<i class="layui-icon layui-icon-face-smile" style="font-size: 32px; color: #d6ff1e;"></i><br />
+						文件列表
+					</button>
+				</div>
+
+				<hr class="layui-bg-blue" />
+
+				<form class="layui-form layui-form-pane">
+					<div class="layui-form-item layui-form-text">
+						<label class="layui-form-label">结果</label>
+						<div class="layui-input-block">
+							<textarea id="result" placeholder="结果" class="layui-textarea"></textarea>
+						</div>
+					</div>
+				</form>
+
+
+				<hr class="layui-bg-blue" />
+
+				<p class="layui-word-aux">
+					我是灰色文字
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="../public/layui/layui.all.js"></script>
+	<script src="../public/javascripts/render/filesys.js"></script>
+</body>
+</html>

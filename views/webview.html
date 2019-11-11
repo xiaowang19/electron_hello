@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>WebView</title>
+	<link rel="stylesheet" href="../public/layui/css/layui.css" media="all">
+	<style>
+		body { margin: 0; padding: 3px; }
+	</style>
+</head>
+<body>
+
+	<webview id="webview" src="about:blank" style="display:inline-flex; width: 100%;" preload="../public/javascripts/webview_common.js" nodeintegration nodeintegrationinsubframes plugins></webview>
+
+	<script src="../public/javascripts/render/webview.js"></script>
+</body>
+</html>
