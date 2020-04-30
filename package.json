@@ -15,7 +15,7 @@
 		"request": "^2.3.4",
 		"request-promise": "^4.2.4",
 		"cheerio": "^1.0.0-rc.3",
-		"jquery": "^3.0.0",
+		"jquery": "^3.5.0",
 		"darkmode-js": "^1.4.0",
 		"devtron": "1.4.0"
 	},
@@ -25,7 +25,7 @@
 		"request": "^2.3.4",
 		"request-promise": "^4.2.4",
 		"cheerio": "^1.0.0-rc.3",
-		"jquery": "^3.0.0",
+		"jquery": "^3.5.0",
 		"darkmode-js": "^1.4.0",
 		"devtron": "1.4.0"
 	},
