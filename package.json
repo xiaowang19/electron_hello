@@ -10,7 +10,7 @@
 		"build": "electron-builder build"
 	},
 	"dependencies": {
-		"electron": "^6.0.11",
+		"electron": "^7.2.4",
 		"python-shell": "^1.0.8",
 		"request": "^2.3.4",
 		"request-promise": "^4.2.4",
@@ -20,7 +20,7 @@
 		"devtron": "1.4.0"
 	},
 	"devDependencies": {
-		"electron": "^6.0.11",
+		"electron": "^7.2.4",
 		"python-shell": "^1.0.8",
 		"request": "^2.3.4",
 		"request-promise": "^4.2.4",
